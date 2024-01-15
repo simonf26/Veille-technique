@@ -50,7 +50,11 @@ Levels are set to apply settings on different ranges
 - Global: all repositories of the current user
 - Local: current repository/folder
 
-### Start a project
+### More settings
+
+You can find more settings [here](https://git-scm.com/book/fr/v2/Personnalisation-de-Git-Configuration-de-Git)
+
+## Start a project
 
 Get in the project folder
 
