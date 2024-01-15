@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Github Purple",
+    "git.suggestSmartCommit": false,
+    "editor.rulers": [
+        72,
+        80,
+        88
+    ],
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "editor.mouseWheelZoom": true,
+    "tabnine.experimentalAutoImports": true,
+    "window.zoomLevel": 2,
+    "git.openRepositoryInParentFolders": "always",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "go.toolsManagement.autoUpdate": true,
+    "explorer.confirmDelete": false
+}
