@@ -1,4 +1,4 @@
-# How to use
+# Committing
 
 ## See staging status
 
@@ -99,4 +99,10 @@ git restore --source=HEAD~<n> <file name>
 
 ```shell
 git clean
+```
+
+## Upload to remote repository
+
+```shell
+git push
 ```
