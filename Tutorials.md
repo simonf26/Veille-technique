@@ -8,6 +8,7 @@ be fully understood.
 1) html
 2) css
 3) JavaScript
+4) VueJS
 
 ## Back end
 

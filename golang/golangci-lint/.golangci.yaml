@@ -1,0 +1,156 @@
+# This file configure golangci-lint for this project.
+# If you have autoformat tools on your editor you need to match its settings
+#
+# You can find all command here:
+# https://github.com/golangci/golangci-lint/blob/master/.golangci.example.yml
+
+run:
+  skip-dirs:
+  - ".*/openapi/.*" # Skip openapi generated code
+  - ".*/generated/.*" # Skip generated code
+
+linters-settings:
+
+  tagliatelle:
+    # check the struck tag name case
+    case:
+      rules:
+        json: snake
+
+  nakedret:
+    # make an issue if func has more lines of code than this setting and it has naked returns; default is 30
+    max-func-lines: 0
+
+  misspell:
+    ignore-words:
+    # To remove complain about some french comments
+    - correspondant
+    - independante
+    - reponse
+
+  gofumpt:
+    # Select the Go version to target.
+    # Default: 1.15
+    lang-version: "1.19"
+    # Choose whether to use the extra rules.
+    # Default: false
+    extra-rules: false
+
+  ireturn:
+      allow:
+        - anon
+        - error
+        - empty
+        - stdlib
+        # You can specify idiomatic endings for interface
+        - (or|er)$
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
+
+linters:
+  fast: true
+  disable-all: true
+  enable:
+    - unused
+    - errcheck
+    - govet
+    - gosimple
+    - ineffassign
+    - typecheck
+    - asciicheck
+    - bidichk
+    - bodyclose
+    - contextcheck
+    - staticcheck
+    # - cyclop
+    # - depguard
+    - dogsled
+    - dupl
+    - dupword
+    - durationcheck
+    - errname
+    - errorlint
+    - exhaustive
+    # - exhaustruct
+    - exportloopref
+    - forbidigo
+    - forcetypeassert
+    #- funlen
+    #- gci # Conflict with gofumpt
+    # - gochecknoglobals
+    - gochecknoinits
+    # - gocognit
+    - goconst
+    # - gocritic # TODO: Enable before merge
+    #- gocyclo
+    - godot
+    #- godox
+    # - goerr113 # TODO: Enable before merge
+    - gofumpt
+    - goheader
+    # - gomnd # TODO: Enable one day
+    - gomoddirectives
+    - gomodguard
+    - goprintffuncname
+    - importas
+    - ireturn
+    - lll
+    - makezero
+    - misspell
+    - nakedret
+    #- nestif
+    - nilerr
+    - nilnil
+    - nlreturn
+    - noctx
+    - nolintlint
+    - paralleltest
+    - prealloc
+    - predeclared
+    - promlinter
+    # - revive # TODO: Enable before merge
+    - rowserrcheck
+    - sqlclosecheck
+    #- stylecheck # TODO: Enable before merge
+    - tagliatelle
+    - tagalign
+    - tenv
+    - testpackage
+    - thelper
+    - tparallel
+    - unconvert
+    #- unparam # TODO: Enable before merge
+    # - varnamelen
+    - wastedassign
+    - whitespace
+    # - wrapcheck
+    - wsl
+    # Next linters
+    - asasalint
+    - decorder
+    - errchkjson
+    # - exhaustivestruct
+    # - ginkgolinter
+    # - gosec # TODO: Enable before merge
+    - gosmopolitan
+    - grouper
+    - importas
+    - inamedparam
+    - interfacebloat
+    - loggercheck
+    # - maintidx # TODO: Enable one day
+    # - fieldalignment
+    - musttag
+    # - nonamedreturns
+    - perfsprint
+    - protogetter
+    - reassign
+    - sloglint
+    # - testifylint
+    - usestdlibvars
+    # Deprecated linters (keep them commented)
+    # - maligned
+    # - ifshort
+    # - varcheck
