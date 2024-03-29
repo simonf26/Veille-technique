@@ -1,17 +1,9 @@
-# Tutorials
+# Development environment
 
-Tutorials are dependent on each other and should be read in the given order to
-be fully understood.
+This repository is meant to keep track of tools that are used in different
+fields:
 
-## Front end
-
-1) html
-2) css
-3) JavaScript
-4) VueJS
-
-## Back end
-
-## Cloud
-
-## DevOps
+- [backend](backend/backend.md)
+- [frontend](frontend/frontend.md)
+- devOps
+- database
