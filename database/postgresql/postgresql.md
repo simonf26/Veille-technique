@@ -29,3 +29,8 @@ PostgreSQL is used by many large and small organizations, including governments,
 universities, and tech companies, to manage their data. It's a great choice
 for a wide range of applications, from simple single-machine databases to
 complex, internet-facing applications with many concurrent users.
+
+## Tools
+
+- [Index Advisor](https://github.com/supabase/index_advisor) : extension for
+recommending indexes to improve query performance.

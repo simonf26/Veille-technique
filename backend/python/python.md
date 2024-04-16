@@ -8,9 +8,12 @@ This folder is meant to keep track of python good practices and tips and tools.
 
 - [Images](Image/image.md)
 
-### Optimization
+### Optimization && Code analysis
 
 - [Optimum](https://github.com/huggingface/optimum): Optimum is an extension
 of Transformers and Diffusers, providing a set of optimization tools enabling
 maximum efficiency to train and run models on targeted hardware, while keeping
 things easy to use.
+
+- [Pylyzer](https://github.com/mtshiba/pylyzer) : static code analyzer / language
+server for Python, written in Rust.

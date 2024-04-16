@@ -45,3 +45,9 @@ This folder is meant to keep track of react good practices and tips and tools.
 
 - [react-native-gifted-charts](react-native-gifted-charts/react-native-gifted-charts.md)
 - [react-resize-aware](react-resize-aware/react-resize-aware.md)
+
+## Tutorials
+
+- [useTransition](https://react.dev/reference/react/useTransition) : doc that
+explains how to animate a progress element using the new useTransition hook,
+which lets you update state without blocking UI.
