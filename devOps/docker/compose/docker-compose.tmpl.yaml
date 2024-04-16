@@ -1,0 +1,40 @@
+version: "3.8"
+
+name: project_name
+
+services:   
+  container2:
+    image: local_image
+    build:
+      context: dockerfile_location
+      target: target_image
+    healthcheck:
+      test: ["healthcheck_command"]
+      interval: 2s
+      timeout: 2s
+      retries: 30
+    networks:
+      default:
+        aliases:
+          - alias_name
+    ports:
+      - "8088:8088"
+
+  container1:
+    image: docker_image1
+    container_name: container_name1
+    tty: true
+    volumes:
+      - ./local/folder/or/file:/container/folder/or/file
+    entrypoint: command_run_on_startup
+    command: ["command arguments"]
+    environment:
+      container_env: local-env
+    labels:
+      - label1
+    depends_on:
+      container_name:
+        condition: service_healthy
+
+volumes:
+  volume1: {}

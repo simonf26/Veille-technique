@@ -4,4 +4,13 @@ This folder is meant to keep track of python good practices and tips and tools.
 
 ## Tools
 
+### Images
+
 - [Images](Image/image.md)
+
+### Optimization
+
+- [Optimum](https://github.com/huggingface/optimum): Optimum is an extension
+of Transformers and Diffusers, providing a set of optimization tools enabling
+maximum efficiency to train and run models on targeted hardware, while keeping
+things easy to use.

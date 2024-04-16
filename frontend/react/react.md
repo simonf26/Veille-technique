@@ -37,5 +37,11 @@ It's a great choice for building large applications that can change over time.
 
 This folder is meant to keep track of react good practices and tips and tools.
 
+## Good practice and rules
+
+- [Rules of React](https://react.dev/reference/rules)
+
+## Tools
+
 - [react-native-gifted-charts](react-native-gifted-charts/react-native-gifted-charts.md)
 - [react-resize-aware](react-resize-aware/react-resize-aware.md)

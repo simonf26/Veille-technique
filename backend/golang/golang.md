@@ -6,6 +6,10 @@ This folder keeps track of golang concepts and development tips and tools.
 
 - [Commenting](Comment.md)
 
+## Handling errors
+
+- [Error Handling](ErrorHandling.md)
+
 ## Tools
 
 - [golangci-lint](golangci-lint/golangci-lint.md)
