@@ -18,3 +18,7 @@ compatible with OpenAI (Elevenlabs, Anthropic... ) API specifications for
 local AI inferencing. It allows you to run LLMs, generate images, audio (and
 not only) locally or on-prem with consumer grade hardware, supporting multiple
 model families. Does not require GPU.
+
+## Reports
+
+- [STORM](https://github.com/stanford-oval/storm)

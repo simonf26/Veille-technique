@@ -25,3 +25,5 @@ resource usage, integrates seamlessly with Docker, and includes a web-based
 user interface and REST API for easy access to performance data. cAdvisor
 is an essential tool for operators who want to optimize container performance
 and ensure the reliability and scalability of their containerized applications.
+
+[cAdvisor](https://docs.centreon.com/fr/pp/integrations/plugin-packs/procedures/cloud-cadvisor-api/)

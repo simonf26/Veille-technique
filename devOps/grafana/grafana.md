@@ -16,6 +16,8 @@ and application performance, but it can be used in any context where you need
 to visualize time-series data. It's highly customizable, allowing you to tailor
 your dashboards to your specific needs.
 
+[Grafana](https://grafana.com/)
+
 ## Tools
 
 - [Alloy](https://github.com/grafana/alloy) : open source OpenTelemetry Collector

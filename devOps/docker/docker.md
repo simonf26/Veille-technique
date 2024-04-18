@@ -28,3 +28,8 @@ It provides a consistent runtime environment for applications, and includes
 tools for image management, orchestration, networking, and security. Docker
 is an essential tool for modern application development and deployment,
 and is widely used in cloud-native and microservices architectures.
+
+## Tools
+
+- [Skopeo](https://github.com/containers/skopeo) : command line utility that
+performs various operations on container images and image repositories.

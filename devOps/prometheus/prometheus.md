@@ -27,3 +27,5 @@ a flexible query language for analyzing and visualizing this data, and supports
 alerting based on custom rules. Prometheus is an essential tool for developers
 and operations teams who want to monitor and troubleshoot complex, distributed
 systems.
+
+[Prometheus](https://prometheus.io/)
