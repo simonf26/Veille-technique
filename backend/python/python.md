@@ -4,6 +4,9 @@ This folder is meant to keep track of python good practices and tips and tools.
 
 ## Tools
 
+- [PySheets](https://pysheets.app/):AI-driven data exploration using Python
+in the browser.
+
 ### Images
 
 - [Images](Image/image.md)
