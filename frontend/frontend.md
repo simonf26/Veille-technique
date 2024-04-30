@@ -16,3 +16,6 @@ and tools and tips.
 using your imagination, then see it rendered live. You can ask for changes
 and convert HTML to React, Svelte, Web Components, etc. It's like v0 but open
 source and not as polished.
+
+- [Plasmic](https://github.com/plasmicapp/plasmic): The open-source visual
+builder for your codebase.

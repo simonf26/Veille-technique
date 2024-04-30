@@ -45,6 +45,8 @@ This folder is meant to keep track of react good practices and tips and tools.
 
 - [react-native-gifted-charts](react-native-gifted-charts/react-native-gifted-charts.md)
 - [react-resize-aware](react-resize-aware/react-resize-aware.md)
+- [Mui X](https://github.com/mui/mui-x): collection of advanced React UI components
+for complex use cases
 
 ## Tutorials
 

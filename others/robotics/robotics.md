@@ -12,3 +12,9 @@ perform complex tasks.
 
 - [MIM4D](https://github.com/hustvl/mim4d): Masked Modeling with Multi-View
 Video for Autonomous Driving Representation Learning.
+
+## Articles
+
+- [The Robotics Renaissance](https://www.generalist.com/briefing/the-robotics-renaissance):
+Modern AI models have changed the game, allowing robots to learn from online
+text, images, and videos...
