@@ -37,3 +37,5 @@ experiences.
 This folder is meant to keep track of css good practices and tips and tools.
 
 - [concrete-css](concrete-css/concrete-css.md)
+
+- [Tailwind AI assistant](https://langcss.com/)
