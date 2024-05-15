@@ -13,6 +13,9 @@ perform complex tasks.
 - [MIM4D](https://github.com/hustvl/mim4d): Masked Modeling with Multi-View
 Video for Autonomous Driving Representation Learning.
 
+- [LeRobot](https://github.com/huggingface/lerobot) : State-of-the-art Machine
+Learning for real-world robotics.
+
 ## Articles
 
 - [The Robotics Renaissance](https://www.generalist.com/briefing/the-robotics-renaissance):
