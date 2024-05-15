@@ -46,3 +46,7 @@ designed for real-time data processing, high-throughput data pipelines, and
 messaging systems. Its scalability, fault tolerance, and low-latency performance
 make it a popular choice for building data-intensive applications and stream
 processing architectures.
+
+## Tutorials
+
+- [Quickstart](https://kafka.apache.org/quickstart)
