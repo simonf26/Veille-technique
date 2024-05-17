@@ -27,3 +27,9 @@ or for protecting the user's identity.
 
 Overall, proxies can provide a range of benefits, including improved security,
 performance, and privacy, as well as greater control over access to online content.
+
+## Tools
+
+- [Piko](https://github.com/andydunstall/piko): Piko is a reverse proxy to
+connect to external networks. It can be used to expose services in a customer
+network, as a bring-your-own-cloud service, or to connect to IoT devices.
