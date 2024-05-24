@@ -19,6 +19,12 @@ local AI inferencing. It allows you to run LLMs, generate images, audio (and
 not only) locally or on-prem with consumer grade hardware, supporting multiple
 model families. Does not require GPU.
 
+## Tutorials
+
+- [CodeSignal](https://learn.codesignal.com/course-paths/18):
+
 ## Reports
 
-- [STORM](https://github.com/stanford-oval/storm)
+- [STORM](https://github.com/stanford-oval/storm): online platform that provides
+a variety of resources and tools for learning and practicing programming and
+computer science skills.

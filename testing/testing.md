@@ -31,3 +31,7 @@ testing tools include JUnit, Selenium, JMeter, TestRail, and TestComplete.
 Testing is an ongoing process that requires careful planning, execution, and
 analysis to ensure that the software is of high quality and meets the needs
 of users.
+
+## Articles
+
+- [Test Driven Development](https://shiftmag.dev/test-driven-development-fail-and-success-1118/)
