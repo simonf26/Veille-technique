@@ -4,6 +4,8 @@ This folder is meant to keep track of python good practices and tips and tools.
 
 ## Tools
 
+- [Cheat Sheet](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)
+
 - [PySheets](https://pysheets.app/):AI-driven data exploration using Python
 in the browser.
 
