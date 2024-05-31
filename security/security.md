@@ -37,3 +37,8 @@ and adaptation to new threats and technologies.
 ## Tools
 
 - [ory](ory/ory.md)
+
+## Articles
+
+- [Let's say 'permissions' and 'login' instead of 'auth'](https://ntietz.com/blog/lets-say-instead-of-auth/):
+to make a clear distinction between 2 different concepts.
