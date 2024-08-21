@@ -128,55 +128,55 @@ test.
 ### Integration Testing
 - go test: Can also be used for integration tests by setting up the necessary
 environment.
-    Example: Writing tests that interact with databases, external APIs, etc.
-    Usage: go test -tags=integration ./...
+    - Example: Writing tests that interact with databases, external APIs, etc.
+    - Usage: go test -tags=integration ./...
 - Ginkgo: A BDD-style testing framework.
-    Example: Writing tests in a more readable, behavior-driven style.
-    Usage: go get github.com/onsi/ginkgo/ginkgo
+    - Example: Writing tests in a more readable, behavior-driven style.
+    - Usage: go get github.com/onsi/ginkgo/ginkgo
 ### Functional Testing
 - go test: Can be used for functional testing by writing tests that cover
 the entire functionality of the application.
-    Example: Testing end-to-end scenarios.
-    Usage: go test ./...
+    - Example: Testing end-to-end scenarios.
+    - Usage: go test ./...
 - Gomega: A matcher/assertion library that works well with Ginkgo.
-    Example: Using matchers to write more expressive tests.
-    Usage: go get github.com/onsi/gomega
+    - Example: Using matchers to write more expressive tests.
+    - Usage: go get github.com/onsi/gomega
 ### Performance Testing
 - go benchmark: The built-in benchmarking tool in Go.
-    Example: Writing benchmark functions with names starting with Benchmark.
-    Usage: go test -bench=. ./...
+    - Example: Writing benchmark functions with names starting with Benchmark.
+    - Usage: go test -bench=. ./...
 - Vegeta: A versatile HTTP load testing tool.
-    Example: Testing the performance of your HTTP endpoints.
-    Usage: go get github.com/tsenart/vegeta
+    - Example: Testing the performance of your HTTP endpoints.
+    - Usage: go get github.com/tsenart/vegeta
 ### Security Testing
 - go-sec: A static analysis tool for Go that checks for security issues.
-    Example: Scanning your code for common security vulnerabilities.
-    Usage: go get github.com/securego/gosec/cmd/gosec
+    - Example: Scanning your code for common security vulnerabilities.
+    - Usage: go get github.com/securego/gosec/cmd/gosec
 ### Usability Testing
 - Manual Testing: For usability testing, manual testing is often the best
 approach.
-    Example: Having users interact with the application and provide feedback.
-    Tools: Tools like UsabilityHub or UserTesting can be used for gathering
+    - Example: Having users interact with the application and provide feedback.
+    - Tools: Tools like UsabilityHub or UserTesting can be used for gathering
     user feedback.
 ### Compatibility Testing
 - Docker: Using Docker to create containers for different environments.
-    Example: Testing your application in different operating systems and configurations.
-    Usage: docker run -it your-image
+    - Example: Testing your application in different operating systems and configurations.
+    - Usage: docker run -it your-image
 ### Smoke and Sanity Testing
 - go test: Can be used for quick smoke and sanity tests.
-    Example: Writing simple tests to ensure basic functionality.
-    Usage: go test ./...
+    - Example: Writing simple tests to ensure basic functionality.
+    - Usage: go test ./...
 ### Exploratory Testing
 - Manual Testing: Exploratory testing is typically done manually.
-    Example: Testers manually explore the application to find defects.
-    Tools: Mind mapping tools like XMind can be used to document findings.
+    - Example: Testers manually explore the application to find defects.
+    - Tools: Mind mapping tools like XMind can be used to document findings.
 ### Continuous Integration (CI) Tools
 - GitHub Actions: Automate your testing workflows.
-    Example: Running tests on every push or pull request.
-    Usage: Define workflows in .github/workflows directory.
+    - Example: Running tests on every push or pull request.
+    - Usage: Define workflows in .github/workflows directory.
 - GitLab CI: Similar to GitHub Actions, but for GitLab.
-    Example: Running tests on every commit.
-    Usage: Define pipelines in .gitlab-ci.yml.
+    - Example: Running tests on every commit.
+    - Usage: Define pipelines in .gitlab-ci.yml.
 
 ## Articles
 
