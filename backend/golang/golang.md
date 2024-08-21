@@ -11,10 +11,10 @@ This folder keeps track of golang concepts and development tips and tools.
 
 - [Error Handling](tutorials/ErrorHandling.md)
 
+## [Testing](testing/testing.md)
+
 ## Tools
 
 - [golangci-lint](tools/golangci-lint/golangci-lint.md)
 
-## Articles
 
-- [Go’s Error Handling Is Perfect, Actually](https://blog.verygoodsoftwarenotvirus.ru/posts/errors-in-go/)

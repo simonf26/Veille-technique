@@ -11,3 +11,15 @@ serves as a central repository for storing, managing, and analyzing data that
 is relevant to the project's goals and objectives. This could include customer
 information, product inventory, financial transactions, or any other type
 of data that needs to be tracked and managed.
+
+## Data-modelling
+
+- [Definition](https://www.ibm.com/fr-fr/topics/data-modeling)
+
+## Migrating
+
+[Data migration](migration/migration.md) for a database is the process of transferring data between different storage types, formats, or systems
+
+### Tools
+
+- [Management_Systems](management_systems/management_systems.md): 
