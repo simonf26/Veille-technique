@@ -12,7 +12,7 @@ test.
     Example: Using assert and require packages for more expressive tests.
     Usage: go get github.com/stretchr/testify
 
-#### Methods:
+-  Methods:
     - Use a mock database:
         - Benefits of Using a Mock Database
             Avoid API Rate Limits: Mock databases allow you to test without
@@ -24,38 +24,39 @@ test.
             Isolation: Tests are isolated from external dependencies, making
             them more reliable.
 
-        Tools and Libraries for Mocking in Golang
+        - Tools and Libraries for Mocking in Golang
             - go-sqlmock: A mocking library for Go's database/sql package.
-                Usage: Useful for mocking SQL databases in your tests.
-                Example: ```
+            - Usage: Useful for mocking SQL databases in your tests.
+            - Example: 
+            ```
+                import (
+                    "github.com/DATA-DOG/go-sqlmock"
+                    "database/sql"
+                    _ "github.com/lib/pq"
+                )
 
-                    import (
-                        "github.com/DATA-DOG/go-sqlmock"
-                        "database/sql"
-                        _ "github.com/lib/pq"
-                    )
-
-                    func TestSomething(t *testing.T) {
-                        db, mock, err := sqlmock.New()
-                        if err != nil {
-                            t.Fatalf("an error '%s' was not expected whenopening a stub database connection", err)
-                        }
-                        defer db.Close()
-
-                        rows := sqlmock.NewRows([]string{"id", "name"}).
-                            AddRow(1, "John").
-                            AddRow(2, "Jane")
-
-                        mock.ExpectQuery("SELECT id, name FROM users").WillReturnRows(rows)
-
-                        // Use db for your tests
+                func TestSomething(t *testing.T) {
+                    db, mock, err := sqlmock.New()
+                    if err != nil {
+                        t.Fatalf("an error '%s' was not expected whenopening a stub database connection", err)
                     }
-                ```
+                    defer db.Close()
+
+                    rows := sqlmock.NewRows([]string{"id", "name"}).
+                        AddRow(1, "John").
+                        AddRow(2, "Jane")
+
+                    mock.ExpectQuery("SELECT id, name FROM users").WillReturnRows(rows)
+
+                    // Use db for your tests
+                }
+            ```
 
             - testify/mock: A mocking package for Go that can be used to create
             mock objects for any interface.
             Usage: Useful for mocking database interfaces or other dependencies.
-            Example:```
+            Example:
+            ```
                 import (
                     "github.com/stretchr/testify/mock"
                 )
@@ -89,38 +90,39 @@ test.
 
             - httptest: A package in the Go standard library for creating
             mock HTTP servers.
-            Usage: Useful for mocking HTTP endpoints in your tests.
-            Example:```
-                import (
-                    "net/http"
-                    "net/http/httptest"
-                    "testing"
-                )
+            - Usage: Useful for mocking HTTP endpoints in your tests.
+            - Example:
+            ```
+            import (
+                "net/http"
+                "net/http/httptest"
+                "testing"
+            )
 
-                func TestHandler(t *testing.T) {
-                    req, err := http.NewRequest("GET", "/test", nil)
-                    if err != nil {
-                        t.Fatal(err)
-                    }
-
-                    rr := httptest.NewRecorder()
-                    handler := http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-                        w.Write([]byte("Hello, world!"))
-                    })
-
-                    handler.ServeHTTP(rr, req)
-
-                    if status := rr.Code; status != http.StatusOK {
-                        t.Errorf("handler returned wrong status code: got %v want %v",
-                            status, http.StatusOK)
-                    }
-
-                    expected := "Hello, world!"
-                    if rr.Body.String() != expected {
-                        t.Errorf("handler returned unexpected body: got %v want %v",
-                            rr.Body.String(), expected)
-                    }
+            func TestHandler(t *testing.T) {
+                req, err := http.NewRequest("GET", "/test", nil)
+                if err != nil {
+                    t.Fatal(err)
                 }
+
+                rr := httptest.NewRecorder()
+                handler := http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+                    w.Write([]byte("Hello, world!"))
+                })
+
+                handler.ServeHTTP(rr, req)
+
+                if status := rr.Code; status != http.StatusOK {
+                    t.Errorf("handler returned wrong status code: got %v want %v",
+                        status, http.StatusOK)
+                }
+
+                expected := "Hello, world!"
+                if rr.Body.String() != expected {
+                    t.Errorf("handler returned unexpected body: got %v want %v",
+                        rr.Body.String(), expected)
+                }
+            }
             ```
 
 ### Integration Testing
