@@ -26,8 +26,8 @@ test.
 
         - Tools and Libraries for Mocking in Golang
             - go-sqlmock: A mocking library for Go's database/sql package.
-            - Usage: Useful for mocking SQL databases in your tests.
-            - Example: 
+                - Usage: Useful for mocking SQL databases in your tests.
+                - Example: 
             ```
                 import (
                     "github.com/DATA-DOG/go-sqlmock"
@@ -54,8 +54,8 @@ test.
 
             - testify/mock: A mocking package for Go that can be used to create
             mock objects for any interface.
-            Usage: Useful for mocking database interfaces or other dependencies.
-            Example:
+                - Usage: Useful for mocking database interfaces or other dependencies.
+                - Example:
             ```
                 import (
                     "github.com/stretchr/testify/mock"
@@ -90,8 +90,8 @@ test.
 
             - httptest: A package in the Go standard library for creating
             mock HTTP servers.
-            - Usage: Useful for mocking HTTP endpoints in your tests.
-            - Example:
+                - Usage: Useful for mocking HTTP endpoints in your tests.
+                - Example:
             ```
             import (
                 "net/http"
