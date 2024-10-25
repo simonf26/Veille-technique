@@ -17,4 +17,7 @@ This folder keeps track of golang concepts and development tips and tools.
 
 - [golangci-lint](tools/golangci-lint/golangci-lint.md)
 
+## Project Layout
+
+- [Here](https://github.com/golang-standards/project-layout/blob/master/README_fr.md)
 
